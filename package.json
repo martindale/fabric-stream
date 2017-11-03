@@ -1,0 +1,37 @@
+{
+  "name": "fabric-stream",
+  "version": "0.0.0",
+  "description": "simple streams over fabric",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martindale/fabric-stream.git"
+  },
+  "keywords": [
+    "maki",
+    "fabric",
+    "streams"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martindale/fabric-stream/issues"
+  },
+  "homepage": "https://github.com/martindale/fabric-stream#readme",
+  "dependencies": {
+    "fabric": "github:martindale/fabric"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  }
+}
